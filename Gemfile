@@ -44,11 +44,10 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-group :development do
-  gem 'rspec-rails', '~> 3.0.0.beta'
+group :development,:test do
+  gem 'rspec-rails', '~> 2.01'
 end
 
 group :test do
-  gem 'rspec-rails', '~> 3.0.0.beta'
   gem 'webrat'
 end
